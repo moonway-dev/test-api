@@ -4,10 +4,12 @@
     "description": "Your app description",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+      "start": "node app.js",
+      "build": "next build"
     },
     "dependencies": {
-      "express": "^4.17.1"
+      "express": "^4.17.1",
+      "next": "latest"
     }
   }
   
