@@ -1,0 +1,36 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Log files
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+.idea/
+.vscode/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore yarn error logs
+yarn-error.log*
+
+# Ignore OS generated files
+npm-debug.log
+yarn-error.log
+
+# Ignore coverage reports
+coverage/
+
+# Ignore production build output
+dist/
+
+# Ignore local configuration
+config.js

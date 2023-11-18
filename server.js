@@ -1,14 +1,17 @@
-const http = require('http');
+const express = require('express');
+const app = express();
 
-const hostname = '0.0.0.0';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Zeet Node');
+// Define a sample endpoint for GET request
+app.get('/api/data', (req, res) => {
+  const data = {
+    message: 'Hello from your API!',
+    timestamp: new Date().toISOString()
+  };
+  res.json(data);
 });
 
-server.listen(port, hostname, () => {
-    console.log(`RUN AT http://${hostname}:${post}/`)
-})
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
