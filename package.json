@@ -4,7 +4,9 @@
     "description": "Your app description",
     "dependencies": {
       "express": "^4.17.1",
-      "next": "latest"
+      "next": "latest",
+      "fs": "^0.0.1",
+      "net": "^1.0.0"
     }
   }
   
