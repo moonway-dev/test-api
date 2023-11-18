@@ -5,8 +5,8 @@
     "dependencies": {
       "express": "^4.17.1",
       "next": "latest",
-      "fs": "^0.0.1",
-      "net": "^1.0.0"
+      "fs": "latest",
+      "net": "latest"
     }
   }
   
