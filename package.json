@@ -1,17 +1,13 @@
 {
-    "name": "simple-api",
+    "name": "your-app-name",
     "version": "1.0.0",
-    "description": "A simple API using Node.js and Express",
+    "description": "Your app description",
     "main": "app.js",
     "scripts": {
       "start": "node app.js"
     },
     "dependencies": {
       "express": "^4.17.1"
-    },
-    "engines": {
-      "node": ">=12.0.0"
-    },
-    "license": "MIT"
+    }
   }
   
